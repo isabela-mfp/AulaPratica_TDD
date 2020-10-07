@@ -1,4 +1,4 @@
-class Main {
+cclass Main {
   public static void main(String[] args) {
     TestMultiplication tm = new TestMultiplication();
     tm.testMultiplication();
