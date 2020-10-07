@@ -1,4 +1,4 @@
-cclass Main {
+class Main {
   public static void main(String[] args) {
     TestMultiplication tm = new TestMultiplication();
     tm.testMultiplication();
@@ -6,5 +6,7 @@ cclass Main {
     tfm.testFrancMultiplication();
     TestEquality te = new TestEquality();
     te.testEquality();
+    TestCurrency tc = new TestCurrency();
+    tc.testCurrency();
   }
 }
